@@ -177,25 +177,34 @@ header {
 .pets-section {
   padding: 50px 20px;
   background-color: white;
-  text-align: center;
+  margin-left: 10px;
+
 }
 
 .section-header {
   margin-bottom: 40px;
+  max-width: 40%;
+
 }
 
 .section-header h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #666;
+  margin-bottom: -10px;
+  
+
 }
 
 .section-header h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #003366;
   margin: 10px 0;
 }
-
+.view-more-container {
+  margin-bottom: 40px;
+  margin-top: -90px;
+}
 .view-more {
   text-decoration: none;
   color: #003366;
@@ -203,6 +212,8 @@ header {
   border: 2px solid #003366;
   padding: 10px 20px;
   border-radius: 25px;
+  margin-bottom: 10px;
+  margin-left: 1100px;
   transition: background-color 0.3s ease;
 }
 
@@ -224,8 +235,7 @@ header {
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 22%;
-  text-align: center;
+  width: 17%;
   padding: 20px;
 }
 
@@ -236,14 +246,17 @@ header {
 }
 
 .pet-card h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #003366;
+  margin-bottom: -10px;
 }
 
 .pet-card p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #666;
+  margin-bottom: -10px;
+
 }
 
 .pet-card .price {

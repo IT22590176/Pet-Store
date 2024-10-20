@@ -1,8 +1,15 @@
 import { useState } from 'react';
 import './App.css';
 import logo from './assets/logo.png';
-import Home from './assets/home.png'; // Placeholder image, replace with appropriate image
-import I01 from './assets/i1.png'; // Placeholder image, replace with appropriate image
+import Home from './assets/home.png';
+import I01 from './assets/i1.png';
+import I011 from './assets/i8.png';
+import I2 from './assets/i2.png';
+import I3 from './assets/i3.png';
+import I4 from './assets/i4.png';
+import I5 from './assets/i5.png';
+import I6 from './assets/i6.png';
+import I7 from './assets/i7.png';
 
 function App() {
   return (
@@ -43,38 +50,43 @@ function App() {
                 <button className="view-intro-button">View Intro</button>
                 <button className="explore-button">Explore Now</button>
               </div>
-             
+
             </div>
-            
+
           </div>
           <div className="hero-image">
-                <img src={Home} alt="Person holding a dog" />
-              </div>
+            <img src={Home} alt="Person holding a dog" />
+          </div>
         </section>
         <section className="pets-section">
           <div className="section-header">
             <h3>What's new?</h3>
             <h2>Take A Look At Some Of Our Pets</h2>
+          </div>
+
+          {/* View More Button */}
+          <div className="view-more-container">
             <a href="#" className="view-more">View more ➝</a>
           </div>
 
+          {/* Pets Gallery */}
           <div className="pets-gallery">
             <div className="pet-card">
-              <img src={Home} alt="Pomeranian White" />
+              <img src={I011} alt="Pomeranian White" />
               <h4>MO231 - Pomeranian White</h4>
               <p>Gender: Male • Age: 02 months</p>
               <p className="price">6.900.000 VND</p>
             </div>
 
             <div className="pet-card">
-              <img src={Home} alt="Poodle Tiny Yellow" />
+              <img src={I2} alt="Poodle Tiny Yellow" />
               <h4>MO502 - Poodle Tiny Yellow</h4>
               <p>Gender: Female • Age: 02 months</p>
               <p className="price">3.900.000 VND</p>
             </div>
 
             <div className="pet-card">
-              <img src={Home} alt="Poodle Tiny Sepia" />
+              <img src={I3} alt="Poodle Tiny Sepia" />
               <h4>MO102 - Poodle Tiny Sepia</h4>
               <p>Gender: Male • Age: 02 months</p>
               <p className="price">4.000.000 VND</p>
@@ -86,8 +98,38 @@ function App() {
               <p>Gender: Male • Age: 02 months</p>
               <p className="price">8.900.000 VND</p>
             </div>
+
+
+            <div className="pet-card">
+              <img src={I4} alt="Pembroke Corgi Cream" />
+              <h4>MO231 - Pembroke Corgi Cream</h4>
+              <p>Gender: Male • Age: 02 months</p>
+              <p className="price">7.900.000 VND</p>
+            </div>
+
+            <div className="pet-card">
+              <img src={I5} alt="Pembroke Corgi Tricolor" />
+              <h4>MO502 - Pembroke Corgi Tricolor</h4>
+              <p>Gender: Female • Age: 02 months</p>
+              <p className="price">9.000.000 VND</p>
+            </div>
+
+            <div className="pet-card">
+              <img src={I6} alt="Pomeranian White" />
+              <h4>MO231 - Pomeranian White</h4>
+              <p>Gender: Male • Age: 02 months</p>
+              <p className="price">6.500.000 VND</p>
+            </div>
+
+            <div className="pet-card">
+              <img src={I7} alt="Poodle Tiny Dairy Cow" />
+              <h4>MO512 - Poodle Tiny Dairy Cow</h4>
+              <p>Gender: Male • Age: 02 months</p>
+              <p className="price">5.000.000 VND</p>
+            </div>
           </div>
         </section>
+
       </main>
 
       <footer>
