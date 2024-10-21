@@ -10,6 +10,16 @@ import I4 from './assets/i4.png';
 import I5 from './assets/i5.png';
 import I6 from './assets/i6.png';
 import I7 from './assets/i7.png';
+import Home_02 from './assets/Home_02.png';
+import Home_03 from './assets/Home_03.png';
+import p1 from './assets/p1.png';
+import p2 from './assets/p2.png';
+import p3 from './assets/p3.png';
+import p4 from './assets/p4.png';
+import p5 from './assets/p5.png';
+import p6 from './assets/p6.png';
+import p7 from './assets/p7.png';
+import p8 from './assets/p8.png';
 
 function App() {
   return (
@@ -129,6 +139,118 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="section3">
+          <div className="hero-content">
+            <div className="text-contentt">
+              <h1>One More Friend</h1> <h3>Thousands More Fun!</h3>
+              <p>
+                Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
+              </p>
+              <div className="button-groupp">
+                <button className="view-intro-button">
+                  View Intro <i className="fa fa-play-circle"></i>
+                </button>
+                <button className="explore-button">Explore Now</button>
+              </div>
+            </div>
+            <div className="hero-image1">
+              <img src={Home_03} alt="Person holding a dog" />
+            </div>
+          </div>
+        </section>
+        <section className="products-section">
+  <div className="section-header">
+    <h3>Hard to choose right products for your pets?</h3>
+    <h2>Our Products</h2>
+  </div>
+
+  <div className="view-more-container">
+    <a href="#" className="view-more">View more ➝</a>
+  </div>
+
+  <div className="products-gallery">
+    <div className="product-card">
+      <img src={p1} alt="Reflex Plus Adult Cat Food" />
+      <h4>Reflex Plus Adult Cat Food Salmon</h4>
+      <p>Product: Dog Food • Size: 385gm</p>
+      <p className="price">140.000 VND</p>
+      <div className="product-tag">
+        <span>🎁 Free Toy & Free Shaker</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p2} alt="Reflex Plus Adult Cat Food" />
+      <h4>Reflex Plus Adult Cat Food Salmon</h4>
+      <p>Product: Cat Food • Size: 1.5kg</p>
+      <p className="price">165.000 VND</p>
+      <div className="product-tag">
+        <span>🎁 Free Toy & Free Shaker</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p3} alt="Cat Scratching Ball" />
+      <h4>Cat Scratching Ball Toy Kitten</h4>
+      <p>Product: Toy</p>
+      <p className="price">1.100.000 VND</p>
+      <div className="product-tag">
+        <span>🍽 Free Cat Food</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p4} alt="Cute Pet Cat Warm Nest" />
+      <h4>Cute Pet Cat Warm Nest</h4>
+      <p>Product: Toy</p>
+      <p className="price">410.000 VND</p>
+      <div className="product-tag">
+        <span>🍽 Free Cat Food</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p5} alt="NatureVet Dogs Omega-Gold" />
+      <h4>NatureVet Dogs Omega-Gold</h4>
+      <p>Product: Dog Food • Size: 385gm</p>
+      <p className="price">350.000 VND</p>
+      <div className="product-tag">
+        <span>🎁 Free Toy & Free Shaker</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p6} alt="Costumes Fashion Pet Cloth Cowboy Rider" />
+      <h4>Costumes Fashion Pet Cloth Cowboy Rider</h4>
+      <p>Product: Costume</p>
+      <p className="price">500.000 VND</p>
+      <div className="product-tag">
+        <span>🎁 Free Toy & Free Shaker</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p7} alt="Costumes Chicken Drumstick Headband" />
+      <h4>Costumes Chicken Drumstick Headband</h4>
+      <p>Product: Costume</p>
+      <p className="price">400.000 VND</p>
+      <div className="product-tag">
+        <span>🍽 Free Cat Food</span>
+      </div>
+    </div>
+
+    <div className="product-card">
+      <img src={p8} alt="Plush Pet Toy" />
+      <h4>Plush Pet Toy</h4>
+      <p>Product: Toy</p>
+      <p className="price">250.000 VND</p>
+      <div className="product-tag">
+        <span>🍽 Free Cat Food & Shaker</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       </main>
 
